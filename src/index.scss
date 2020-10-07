@@ -1,0 +1,36 @@
+body {
+  padding: 40px 30px;
+  text-align: center;
+  background-color: #e3e2df;
+  font-family: "Roboto", sans-serif;
+}
+
+.main-header {
+  font-family: "Lobster", cursive;
+  font-size: 4rem;
+  color: #5d001e;
+  text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.3);
+}
+
+input{
+    border:none;
+    width:40%;
+    margin-top:30px;
+    font-family: "Roboto", sans-serif;
+    border-bottom:2px solid grey;
+    padding: 3px 5px;
+    font-size:18px;
+    background-color:inherit;
+    &:focus{
+        outline:none;
+    }
+    
+}
+::placeholder{
+    font-family: inherit;
+}
+
+
+.card{
+    box-shadow: 0 15px 10px #777;
+}
